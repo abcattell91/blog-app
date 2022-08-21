@@ -1,5 +1,6 @@
 import { combineReducers } from 'redux';
+import { postsReducer } from './postsReducer'
 
 export default combineReducers({
-  replaceMe: () => 'hi there' // tricking redux thinking it has a valid reducer
+  posts:
 });
